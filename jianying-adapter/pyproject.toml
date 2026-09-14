@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jianying-adapter"
+version = "0.1.0"
+description = "Local, auditable guardrails and raw-preserving primitives for Jianying drafts"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "LicenseRef-AutoCUT-Personal-Use-1.0"}
+authors = [{name = "Blackkeys0430"}]
+dependencies = [
+  "Pillow>=12.3,<13",
+  "pymediainfo>=7,<8",
+  "uiautomation>=2.0,<3",
+]
+
+[project.scripts]
+jianying-adapter = "jianying_adapter.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Blackkeys0430/AutoCUT-public"
+Repository = "https://github.com/Blackkeys0430/AutoCUT-public"
+Author = "https://github.com/Blackkeys0430"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"

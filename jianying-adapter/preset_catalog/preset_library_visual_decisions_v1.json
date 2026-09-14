@@ -1,0 +1,34 @@
+{
+  "schema": "jianying-adapter.preset-library-visual-decisions.v1",
+  "decision_date": "2026-09-02",
+  "evidence": "../../video_trials/模板库779入库_v1/batches/E88-001/visual_validation.json",
+  "additional_evidence": {
+    "JIANYING-25-01": "../../video_trials/并列列表模板_独立测试_v1/project_state.json",
+    "JIANYING-25-08": "../../video_trials/开头疑问钩子_独立测试_v1/project_state.json"
+  },
+  "acceptance_draft": "模板验证01_两行结论_原样",
+  "accepted": [
+    "JIANYING-25-01",
+    "JIANYING-25-02",
+    "JIANYING-25-08",
+    "JIANYING-25-13",
+    "JIANYING-25-77",
+    "JIANYING-25-412",
+    "JIANYING-25-489",
+    "JIANYING-25-490",
+    "JIANYING-25-491",
+    "JIANYING-25-492",
+    "JIANYING-25-493"
+  ],
+  "conditional": {
+    "JIANYING-25-03": "竖排文字会穿过居中人物的额头和嘴部，只能在有侧向留白且完成碰撞复核时使用",
+    "JIANYING-25-04": "稳定文字行会穿过居中人脸，只能在可整体平移且完成碰撞复核时使用",
+    "JIANYING-25-63": "弹幕设计天然覆盖主体，只限信息过载或焦虑语义，并需逐素材验收"
+  },
+  "policy": {
+    "accepted_means": "原生动态、资源完整性和当前验收画面已通过",
+    "accepted_does_not_mean": "任意素材可直接套用",
+    "production_placement": "按当前素材整体平移，保留原预设内部结构和动画",
+    "auto_select": false
+  }
+}

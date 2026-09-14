@@ -1,0 +1,3075 @@
+{
+  "schema": "jianying-adapter.project-preset-collection.v1",
+  "collection_id": "PROJECT-1-3-TEXT-LAYOUT",
+  "source_collection": "E:\\AutoCUT\\video_trials\\模板动态验证_20260831\\source_73\\73口播工程\\1-3-文字排版",
+  "source_analysis": "E:\\AutoCUT\\video_trials\\模板分析_20260831\\text_layout_1_3_units_v1.json",
+  "canvas": {
+    "height": 1920,
+    "width": 1080
+  },
+  "source_versions": {
+    "platform_app_version": "8.1.1",
+    "last_modified_platform_app_version": "8.1.1",
+    "compatible_8_8": false
+  },
+  "status": "structurally_cataloged",
+  "automation_eligible": false,
+  "visual_validation": "pending_per_variant",
+  "source_media_behavior": "demo_only",
+  "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+  "audio_sfx_included": false,
+  "direct_raw_copy_allowed": false,
+  "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考",
+  "semantic_variant_explanation": "两层登记：章节标签形成语义家族；章节内每个同一时点的重叠文字轨连通分量形成一个可单独调用和验收的视觉预设变体。",
+  "semantic_families": [
+    {
+      "family_id": "PROJECT-1-3-F01",
+      "semantic_family_id": "1-3-U01",
+      "category": "开场观点",
+      "start": 0.0,
+      "end": 24.0,
+      "duration": 24.0,
+      "candidate_ids": [
+        "PROJECT-1-3-V01",
+        "PROJECT-1-3-V02",
+        "PROJECT-1-3-V03",
+        "PROJECT-1-3-V04",
+        "PROJECT-1-3-V05",
+        "PROJECT-1-3-V06",
+        "PROJECT-1-3-V07",
+        "PROJECT-1-3-V08"
+      ],
+      "semantic_tags": [
+        "opening_viewpoint",
+        "title_hook"
+      ],
+      "mechanism_families": [
+        "overlapping_text_slots_with_media_overlay"
+      ]
+    },
+    {
+      "family_id": "PROJECT-1-3-F02",
+      "semantic_family_id": "1-3-U02",
+      "category": "提出问题",
+      "start": 24.0,
+      "end": 33.0,
+      "duration": 9.0,
+      "candidate_ids": [
+        "PROJECT-1-3-V09",
+        "PROJECT-1-3-V10",
+        "PROJECT-1-3-V11"
+      ],
+      "semantic_tags": [
+        "question_hook"
+      ],
+      "mechanism_families": [
+        "overlapping_text_slots_with_media_overlay"
+      ]
+    },
+    {
+      "family_id": "PROJECT-1-3-F03",
+      "semantic_family_id": "1-3-U03",
+      "category": "痛点",
+      "start": 36.0,
+      "end": 54.0,
+      "duration": 18.0,
+      "candidate_ids": [
+        "PROJECT-1-3-V12",
+        "PROJECT-1-3-V13",
+        "PROJECT-1-3-V14",
+        "PROJECT-1-3-V15",
+        "PROJECT-1-3-V16",
+        "PROJECT-1-3-V17"
+      ],
+      "semantic_tags": [
+        "pain_point",
+        "single_statement"
+      ],
+      "mechanism_families": [
+        "masked_or_windowed_layout"
+      ]
+    },
+    {
+      "family_id": "PROJECT-1-3-F04",
+      "semantic_family_id": "1-3-U04",
+      "category": "情绪",
+      "start": 54.0,
+      "end": 66.0,
+      "duration": 12.0,
+      "candidate_ids": [
+        "PROJECT-1-3-V18",
+        "PROJECT-1-3-V19",
+        "PROJECT-1-3-V20",
+        "PROJECT-1-3-V21"
+      ],
+      "semantic_tags": [
+        "emotion_emphasis",
+        "special_overlay"
+      ],
+      "mechanism_families": [
+        "text_layout_over_demo_media"
+      ]
+    },
+    {
+      "family_id": "PROJECT-1-3-F05",
+      "semantic_family_id": "1-3-U05",
+      "category": "金句",
+      "start": 72.0,
+      "end": 105.0,
+      "duration": 33.0,
+      "candidate_ids": [
+        "PROJECT-1-3-V22",
+        "PROJECT-1-3-V23",
+        "PROJECT-1-3-V24",
+        "PROJECT-1-3-V25",
+        "PROJECT-1-3-V26",
+        "PROJECT-1-3-V27",
+        "PROJECT-1-3-V28",
+        "PROJECT-1-3-V29",
+        "PROJECT-1-3-V30",
+        "PROJECT-1-3-V31",
+        "PROJECT-1-3-V32"
+      ],
+      "semantic_tags": [
+        "quote_opinion"
+      ],
+      "mechanism_families": [
+        "masked_or_windowed_layout"
+      ]
+    },
+    {
+      "family_id": "PROJECT-1-3-F06",
+      "semantic_family_id": "1-3-U06",
+      "category": "数字",
+      "start": 105.0,
+      "end": 114.0,
+      "duration": 9.0,
+      "candidate_ids": [
+        "PROJECT-1-3-V33",
+        "PROJECT-1-3-V34",
+        "PROJECT-1-3-V35"
+      ],
+      "semantic_tags": [
+        "data_number",
+        "keyword_emphasis"
+      ],
+      "mechanism_families": [
+        "masked_or_windowed_layout"
+      ]
+    },
+    {
+      "family_id": "PROJECT-1-3-F07",
+      "semantic_family_id": "1-3-U07",
+      "category": "框架概要",
+      "start": 114.0,
+      "end": 147.0,
+      "duration": 33.0,
+      "candidate_ids": [
+        "PROJECT-1-3-V36",
+        "PROJECT-1-3-V37",
+        "PROJECT-1-3-V38",
+        "PROJECT-1-3-V39",
+        "PROJECT-1-3-V40",
+        "PROJECT-1-3-V41",
+        "PROJECT-1-3-V42",
+        "PROJECT-1-3-V43",
+        "PROJECT-1-3-V44",
+        "PROJECT-1-3-V45",
+        "PROJECT-1-3-V46"
+      ],
+      "semantic_tags": [
+        "framework_summary",
+        "explanation_two_line"
+      ],
+      "mechanism_families": [
+        "masked_or_windowed_layout"
+      ]
+    },
+    {
+      "family_id": "PROJECT-1-3-F08",
+      "semantic_family_id": "1-3-U08",
+      "category": "引用/回忆",
+      "start": 147.0,
+      "end": 162.0,
+      "duration": 15.0,
+      "candidate_ids": [
+        "PROJECT-1-3-V47",
+        "PROJECT-1-3-V48",
+        "PROJECT-1-3-V49",
+        "PROJECT-1-3-V50",
+        "PROJECT-1-3-V51"
+      ],
+      "semantic_tags": [
+        "quote_opinion",
+        "reference_memory"
+      ],
+      "mechanism_families": [
+        "text_layout_over_demo_media"
+      ]
+    },
+    {
+      "family_id": "PROJECT-1-3-F09",
+      "semantic_family_id": "1-3-U09",
+      "category": "结尾引导",
+      "start": 162.0,
+      "end": 168.0,
+      "duration": 6.0,
+      "candidate_ids": [
+        "PROJECT-1-3-V52",
+        "PROJECT-1-3-V53"
+      ],
+      "semantic_tags": [
+        "closing_cta"
+      ],
+      "mechanism_families": [
+        "overlapping_text_slot_variant_group"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "PROJECT-1-3-V01",
+      "candidate_id": "PROJECT-1-3-V01",
+      "semantic_family_id": "1-3-U01",
+      "family_id": "PROJECT-1-3-F01",
+      "category": "开场观点",
+      "start": 0.0,
+      "end": 3.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 0,
+        "end_us": 3000000,
+        "duration_us": 3000000,
+        "start_seconds": 0.0,
+        "end_seconds": 3.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "短视频红利",
+        "消失了"
+      ],
+      "track_indices": [
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 0
+        },
+        {
+          "track_index": 11,
+          "segment_index": 0
+        }
+      ],
+      "semantic_tags": [
+        "opening_viewpoint",
+        "title_hook"
+      ],
+      "mechanism_family": "overlapping_text_slots_with_media_overlay",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V02",
+      "candidate_id": "PROJECT-1-3-V02",
+      "semantic_family_id": "1-3-U01",
+      "family_id": "PROJECT-1-3-F01",
+      "category": "开场观点",
+      "start": 3.0,
+      "end": 6.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 3000000,
+        "end_us": 6000000,
+        "duration_us": 3000000,
+        "start_seconds": 3.0,
+        "end_seconds": 6.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "2025年短视频红利",
+        "消失了"
+      ],
+      "track_indices": [
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 1
+        },
+        {
+          "track_index": 11,
+          "segment_index": 1
+        }
+      ],
+      "semantic_tags": [
+        "opening_viewpoint",
+        "title_hook"
+      ],
+      "mechanism_family": "overlapping_text_slots_with_media_overlay",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V03",
+      "candidate_id": "PROJECT-1-3-V03",
+      "semantic_family_id": "1-3-U01",
+      "family_id": "PROJECT-1-3-F01",
+      "category": "开场观点",
+      "start": 6.0,
+      "end": 9.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 6000000,
+        "end_us": 9000000,
+        "duration_us": 3000000,
+        "start_seconds": 6.0,
+        "end_seconds": 9.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "2025年短视频红利",
+        "消失了"
+      ],
+      "track_indices": [
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 11,
+          "segment_index": 2
+        },
+        {
+          "track_index": 10,
+          "segment_index": 2
+        }
+      ],
+      "semantic_tags": [
+        "opening_viewpoint",
+        "title_hook"
+      ],
+      "mechanism_family": "overlapping_text_slots_with_media_overlay",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V04",
+      "candidate_id": "PROJECT-1-3-V04",
+      "semantic_family_id": "1-3-U01",
+      "family_id": "PROJECT-1-3-F01",
+      "category": "开场观点",
+      "start": 9.0,
+      "end": 12.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 9000000,
+        "end_us": 12000000,
+        "duration_us": 3000000,
+        "start_seconds": 9.0,
+        "end_seconds": 12.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "消失",
+        "2025年短视频红利"
+      ],
+      "track_indices": [
+        2,
+        10
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 0
+        },
+        {
+          "track_index": 10,
+          "segment_index": 3
+        }
+      ],
+      "semantic_tags": [
+        "opening_viewpoint",
+        "title_hook"
+      ],
+      "mechanism_family": "overlapping_text_slots_with_media_overlay",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V05",
+      "candidate_id": "PROJECT-1-3-V05",
+      "semantic_family_id": "1-3-U01",
+      "family_id": "PROJECT-1-3-F01",
+      "category": "开场观点",
+      "start": 12.0,
+      "end": 15.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 12000000,
+        "end_us": 15000000,
+        "duration_us": 3000000,
+        "start_seconds": 12.0,
+        "end_seconds": 15.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "2025年",
+        "短视频红利",
+        "消失了"
+      ],
+      "track_indices": [
+        10,
+        11,
+        12
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 4
+        },
+        {
+          "track_index": 11,
+          "segment_index": 3
+        },
+        {
+          "track_index": 12,
+          "segment_index": 0
+        }
+      ],
+      "semantic_tags": [
+        "opening_viewpoint",
+        "title_hook"
+      ],
+      "mechanism_family": "overlapping_text_slots_with_media_overlay",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V06",
+      "candidate_id": "PROJECT-1-3-V06",
+      "semantic_family_id": "1-3-U01",
+      "family_id": "PROJECT-1-3-F01",
+      "category": "开场观点",
+      "start": 15.0,
+      "end": 18.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 15000000,
+        "end_us": 18000000,
+        "duration_us": 3000000,
+        "start_seconds": 15.0,
+        "end_seconds": 18.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "2025年",
+        "短视频红利",
+        "消失了"
+      ],
+      "track_indices": [
+        10,
+        11,
+        12
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 5
+        },
+        {
+          "track_index": 11,
+          "segment_index": 4
+        },
+        {
+          "track_index": 12,
+          "segment_index": 1
+        }
+      ],
+      "semantic_tags": [
+        "opening_viewpoint",
+        "title_hook"
+      ],
+      "mechanism_family": "overlapping_text_slots_with_media_overlay",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V07",
+      "candidate_id": "PROJECT-1-3-V07",
+      "semantic_family_id": "1-3-U01",
+      "family_id": "PROJECT-1-3-F01",
+      "category": "开场观点",
+      "start": 18.0,
+      "end": 21.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 18000000,
+        "end_us": 21000000,
+        "duration_us": 3000000,
+        "start_seconds": 18.0,
+        "end_seconds": 21.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "首先",
+        "咱们得弄明白什么才是IP"
+      ],
+      "track_indices": [
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 6
+        },
+        {
+          "track_index": 11,
+          "segment_index": 5
+        }
+      ],
+      "semantic_tags": [
+        "opening_viewpoint",
+        "title_hook"
+      ],
+      "mechanism_family": "overlapping_text_slots_with_media_overlay",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V08",
+      "candidate_id": "PROJECT-1-3-V08",
+      "semantic_family_id": "1-3-U01",
+      "family_id": "PROJECT-1-3-F01",
+      "category": "开场观点",
+      "start": 21.0,
+      "end": 24.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 21000000,
+        "end_us": 24000000,
+        "duration_us": 3000000,
+        "start_seconds": 21.0,
+        "end_seconds": 24.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "我是行业专家",
+        "网红",
+        "行业专家",
+        "做IP=当网红",
+        "职场高管"
+      ],
+      "track_indices": [
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 1
+        },
+        {
+          "track_index": 3,
+          "segment_index": 0
+        },
+        {
+          "track_index": 10,
+          "segment_index": 7
+        },
+        {
+          "track_index": 11,
+          "segment_index": 6
+        },
+        {
+          "track_index": 12,
+          "segment_index": 2
+        }
+      ],
+      "semantic_tags": [
+        "opening_viewpoint",
+        "title_hook"
+      ],
+      "mechanism_family": "overlapping_text_slots_with_media_overlay",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V09",
+      "candidate_id": "PROJECT-1-3-V09",
+      "semantic_family_id": "1-3-U02",
+      "family_id": "PROJECT-1-3-F02",
+      "category": "提出问题",
+      "start": 24.0,
+      "end": 27.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 24000000,
+        "end_us": 27000000,
+        "duration_us": 3000000,
+        "start_seconds": 24.0,
+        "end_seconds": 27.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "都2025年了"
+      ],
+      "track_indices": [
+        10
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 8
+        }
+      ],
+      "semantic_tags": [
+        "question_hook"
+      ],
+      "mechanism_family": "overlapping_text_slots_with_media_overlay",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V10",
+      "candidate_id": "PROJECT-1-3-V10",
+      "semantic_family_id": "1-3-U02",
+      "family_id": "PROJECT-1-3-F02",
+      "category": "提出问题",
+      "start": 27.0,
+      "end": 30.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 27000000,
+        "end_us": 30000000,
+        "duration_us": 3000000,
+        "start_seconds": 27.0,
+        "end_seconds": 30.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "都2025年了",
+        "你还不会口播剪辑"
+      ],
+      "track_indices": [
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 9
+        },
+        {
+          "track_index": 11,
+          "segment_index": 7
+        }
+      ],
+      "semantic_tags": [
+        "question_hook"
+      ],
+      "mechanism_family": "overlapping_text_slots_with_media_overlay",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V11",
+      "candidate_id": "PROJECT-1-3-V11",
+      "semantic_family_id": "1-3-U02",
+      "family_id": "PROJECT-1-3-F02",
+      "category": "提出问题",
+      "start": 30.0,
+      "end": 33.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 30000000,
+        "end_us": 33000000,
+        "duration_us": 3000000,
+        "start_seconds": 30.0,
+        "end_seconds": 33.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "落伍",
+        "都2025年了",
+        "你还不会口播剪辑"
+      ],
+      "track_indices": [
+        2,
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 2
+        },
+        {
+          "track_index": 10,
+          "segment_index": 10
+        },
+        {
+          "track_index": 11,
+          "segment_index": 8
+        }
+      ],
+      "semantic_tags": [
+        "question_hook"
+      ],
+      "mechanism_family": "overlapping_text_slots_with_media_overlay",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V12",
+      "candidate_id": "PROJECT-1-3-V12",
+      "semantic_family_id": "1-3-U03",
+      "family_id": "PROJECT-1-3-F03",
+      "category": "痛点",
+      "start": 36.0,
+      "end": 39.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 36000000,
+        "end_us": 39000000,
+        "duration_us": 3000000,
+        "start_seconds": 36.0,
+        "end_seconds": 39.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "没节奏",
+        "没逻辑",
+        "没情绪"
+      ],
+      "track_indices": [
+        2,
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 3
+        },
+        {
+          "track_index": 10,
+          "segment_index": 11
+        },
+        {
+          "track_index": 11,
+          "segment_index": 9
+        }
+      ],
+      "semantic_tags": [
+        "pain_point",
+        "single_statement"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V13",
+      "candidate_id": "PROJECT-1-3-V13",
+      "semantic_family_id": "1-3-U03",
+      "family_id": "PROJECT-1-3-F03",
+      "category": "痛点",
+      "start": 39.0,
+      "end": 42.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 39000000,
+        "end_us": 42000000,
+        "duration_us": 3000000,
+        "start_seconds": 39.0,
+        "end_seconds": 42.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "没节奏",
+        "没逻辑",
+        "没情绪",
+        "为什么"
+      ],
+      "track_indices": [
+        2,
+        10,
+        11,
+        12
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 4
+        },
+        {
+          "track_index": 10,
+          "segment_index": 12
+        },
+        {
+          "track_index": 11,
+          "segment_index": 10
+        },
+        {
+          "track_index": 12,
+          "segment_index": 3
+        }
+      ],
+      "semantic_tags": [
+        "pain_point",
+        "single_statement"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V14",
+      "candidate_id": "PROJECT-1-3-V14",
+      "semantic_family_id": "1-3-U03",
+      "family_id": "PROJECT-1-3-F03",
+      "category": "痛点",
+      "start": 42.0,
+      "end": 45.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 42000000,
+        "end_us": 45000000,
+        "duration_us": 3000000,
+        "start_seconds": 42.0,
+        "end_seconds": 45.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "没节奏",
+        "没逻辑",
+        "没情绪"
+      ],
+      "track_indices": [
+        2,
+        3,
+        4
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 5
+        },
+        {
+          "track_index": 3,
+          "segment_index": 1
+        },
+        {
+          "track_index": 4,
+          "segment_index": 0
+        }
+      ],
+      "semantic_tags": [
+        "pain_point",
+        "single_statement"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V15",
+      "candidate_id": "PROJECT-1-3-V15",
+      "semantic_family_id": "1-3-U03",
+      "family_id": "PROJECT-1-3-F03",
+      "category": "痛点",
+      "start": 45.0,
+      "end": 48.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 45000000,
+        "end_us": 48000000,
+        "duration_us": 3000000,
+        "start_seconds": 45.0,
+        "end_seconds": 48.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "没节奏",
+        "没逻辑",
+        "没情绪"
+      ],
+      "track_indices": [
+        2,
+        3,
+        4
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 6
+        },
+        {
+          "track_index": 3,
+          "segment_index": 2
+        },
+        {
+          "track_index": 4,
+          "segment_index": 1
+        }
+      ],
+      "semantic_tags": [
+        "pain_point",
+        "single_statement"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V16",
+      "candidate_id": "PROJECT-1-3-V16",
+      "semantic_family_id": "1-3-U03",
+      "family_id": "PROJECT-1-3-F03",
+      "category": "痛点",
+      "start": 48.0,
+      "end": 51.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 48000000,
+        "end_us": 51000000,
+        "duration_us": 3000000,
+        "start_seconds": 48.0,
+        "end_seconds": 51.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "没节奏",
+        "没逻辑",
+        "没情绪"
+      ],
+      "track_indices": [
+        2,
+        3,
+        4
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 7
+        },
+        {
+          "track_index": 3,
+          "segment_index": 3
+        },
+        {
+          "track_index": 4,
+          "segment_index": 2
+        }
+      ],
+      "semantic_tags": [
+        "pain_point",
+        "single_statement"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V17",
+      "candidate_id": "PROJECT-1-3-V17",
+      "semantic_family_id": "1-3-U03",
+      "family_id": "PROJECT-1-3-F03",
+      "category": "痛点",
+      "start": 51.0,
+      "end": 54.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 51000000,
+        "end_us": 54000000,
+        "duration_us": 3000000,
+        "start_seconds": 51.0,
+        "end_seconds": 54.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "没节奏",
+        "没逻辑",
+        "没情绪"
+      ],
+      "track_indices": [
+        2,
+        3,
+        4
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 8
+        },
+        {
+          "track_index": 3,
+          "segment_index": 4
+        },
+        {
+          "track_index": 4,
+          "segment_index": 3
+        }
+      ],
+      "semantic_tags": [
+        "pain_point",
+        "single_statement"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V18",
+      "candidate_id": "PROJECT-1-3-V18",
+      "semantic_family_id": "1-3-U04",
+      "family_id": "PROJECT-1-3-F04",
+      "category": "情绪",
+      "start": 54.0,
+      "end": 57.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 54000000,
+        "end_us": 57000000,
+        "duration_us": 3000000,
+        "start_seconds": 54.0,
+        "end_seconds": 57.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "哭泣"
+      ],
+      "track_indices": [
+        2
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 9
+        }
+      ],
+      "semantic_tags": [
+        "emotion_emphasis",
+        "special_overlay"
+      ],
+      "mechanism_family": "text_layout_over_demo_media",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V19",
+      "candidate_id": "PROJECT-1-3-V19",
+      "semantic_family_id": "1-3-U04",
+      "family_id": "PROJECT-1-3-F04",
+      "category": "情绪",
+      "start": 57.0,
+      "end": 60.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 57000000,
+        "end_us": 60000000,
+        "duration_us": 3000000,
+        "start_seconds": 57.0,
+        "end_seconds": 60.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "惊讶"
+      ],
+      "track_indices": [
+        2
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 10
+        }
+      ],
+      "semantic_tags": [
+        "emotion_emphasis",
+        "special_overlay"
+      ],
+      "mechanism_family": "text_layout_over_demo_media",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V20",
+      "candidate_id": "PROJECT-1-3-V20",
+      "semantic_family_id": "1-3-U04",
+      "family_id": "PROJECT-1-3-F04",
+      "category": "情绪",
+      "start": 60.0,
+      "end": 63.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 60000000,
+        "end_us": 63000000,
+        "duration_us": 3000000,
+        "start_seconds": 60.0,
+        "end_seconds": 63.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "非常开心"
+      ],
+      "track_indices": [
+        2
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 11
+        }
+      ],
+      "semantic_tags": [
+        "emotion_emphasis",
+        "special_overlay"
+      ],
+      "mechanism_family": "text_layout_over_demo_media",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V21",
+      "candidate_id": "PROJECT-1-3-V21",
+      "semantic_family_id": "1-3-U04",
+      "family_id": "PROJECT-1-3-F04",
+      "category": "情绪",
+      "start": 63.0,
+      "end": 66.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 63000000,
+        "end_us": 66000000,
+        "duration_us": 3000000,
+        "start_seconds": 63.0,
+        "end_seconds": 66.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "救命"
+      ],
+      "track_indices": [
+        2
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 12
+        }
+      ],
+      "semantic_tags": [
+        "emotion_emphasis",
+        "special_overlay"
+      ],
+      "mechanism_family": "text_layout_over_demo_media",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V22",
+      "candidate_id": "PROJECT-1-3-V22",
+      "semantic_family_id": "1-3-U05",
+      "family_id": "PROJECT-1-3-F05",
+      "category": "金句",
+      "start": 72.0,
+      "end": 75.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 72000000,
+        "end_us": 75000000,
+        "duration_us": 3000000,
+        "start_seconds": 72.0,
+        "end_seconds": 75.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "\"天才是1%的天分",
+        "加上99%的努力\""
+      ],
+      "track_indices": [
+        2,
+        3
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 13
+        },
+        {
+          "track_index": 3,
+          "segment_index": 5
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V23",
+      "candidate_id": "PROJECT-1-3-V23",
+      "semantic_family_id": "1-3-U05",
+      "family_id": "PROJECT-1-3-F05",
+      "category": "金句",
+      "start": 75.0,
+      "end": 78.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 75000000,
+        "end_us": 78000000,
+        "duration_us": 3000000,
+        "start_seconds": 75.0,
+        "end_seconds": 78.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "\"天才是1%的天分",
+        "加上99%的努力\""
+      ],
+      "track_indices": [
+        2,
+        3
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 14
+        },
+        {
+          "track_index": 3,
+          "segment_index": 6
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V24",
+      "candidate_id": "PROJECT-1-3-V24",
+      "semantic_family_id": "1-3-U05",
+      "family_id": "PROJECT-1-3-F05",
+      "category": "金句",
+      "start": 78.0,
+      "end": 81.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 78000000,
+        "end_us": 81000000,
+        "duration_us": 3000000,
+        "start_seconds": 78.0,
+        "end_seconds": 81.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "\"天才是1%的天分",
+        "加上99%的努力\"",
+        "——爱迪生"
+      ],
+      "track_indices": [
+        2,
+        3,
+        4
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 15
+        },
+        {
+          "track_index": 3,
+          "segment_index": 7
+        },
+        {
+          "track_index": 4,
+          "segment_index": 4
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V25",
+      "candidate_id": "PROJECT-1-3-V25",
+      "semantic_family_id": "1-3-U05",
+      "family_id": "PROJECT-1-3-F05",
+      "category": "金句",
+      "start": 81.0,
+      "end": 84.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 81000000,
+        "end_us": 84000000,
+        "duration_us": 3000000,
+        "start_seconds": 81.0,
+        "end_seconds": 84.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "\"天才是1%的天分",
+        "加上99%的努力\"",
+        "爱迪生"
+      ],
+      "track_indices": [
+        2,
+        3,
+        10
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 16
+        },
+        {
+          "track_index": 3,
+          "segment_index": 8
+        },
+        {
+          "track_index": 10,
+          "segment_index": 13
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V26",
+      "candidate_id": "PROJECT-1-3-V26",
+      "semantic_family_id": "1-3-U05",
+      "family_id": "PROJECT-1-3-F05",
+      "category": "金句",
+      "start": 84.0,
+      "end": 87.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 84000000,
+        "end_us": 87000000,
+        "duration_us": 3000000,
+        "start_seconds": 84.0,
+        "end_seconds": 87.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "\"天才是1%的天分",
+        "加上99%的努力\""
+      ],
+      "track_indices": [
+        2,
+        3
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 17
+        },
+        {
+          "track_index": 3,
+          "segment_index": 9
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V27",
+      "candidate_id": "PROJECT-1-3-V27",
+      "semantic_family_id": "1-3-U05",
+      "family_id": "PROJECT-1-3-F05",
+      "category": "金句",
+      "start": 87.0,
+      "end": 90.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 87000000,
+        "end_us": 90000000,
+        "duration_us": 3000000,
+        "start_seconds": 87.0,
+        "end_seconds": 90.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "\"天才是1%的天分",
+        "加上99%的努力\""
+      ],
+      "track_indices": [
+        2,
+        3
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 18
+        },
+        {
+          "track_index": 3,
+          "segment_index": 10
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V28",
+      "candidate_id": "PROJECT-1-3-V28",
+      "semantic_family_id": "1-3-U05",
+      "family_id": "PROJECT-1-3-F05",
+      "category": "金句",
+      "start": 90.0,
+      "end": 93.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 90000000,
+        "end_us": 93000000,
+        "duration_us": 3000000,
+        "start_seconds": 90.0,
+        "end_seconds": 93.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "\"天才是1%的天分",
+        "加上99%的努力\""
+      ],
+      "track_indices": [
+        2,
+        3
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 19
+        },
+        {
+          "track_index": 3,
+          "segment_index": 11
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V29",
+      "candidate_id": "PROJECT-1-3-V29",
+      "semantic_family_id": "1-3-U05",
+      "family_id": "PROJECT-1-3-F05",
+      "category": "金句",
+      "start": 93.0,
+      "end": 96.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 93000000,
+        "end_us": 96000000,
+        "duration_us": 3000000,
+        "start_seconds": 93.0,
+        "end_seconds": 96.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "\"天才是1%的天分",
+        "加上99%的努力\"",
+        "“",
+        "”"
+      ],
+      "track_indices": [
+        2,
+        3,
+        4,
+        7,
+        10
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 20
+        },
+        {
+          "track_index": 3,
+          "segment_index": 12
+        },
+        {
+          "track_index": 4,
+          "segment_index": 5
+        },
+        {
+          "track_index": 7,
+          "segment_index": 2
+        },
+        {
+          "track_index": 10,
+          "segment_index": 14
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V30",
+      "candidate_id": "PROJECT-1-3-V30",
+      "semantic_family_id": "1-3-U05",
+      "family_id": "PROJECT-1-3-F05",
+      "category": "金句",
+      "start": 96.0,
+      "end": 99.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 96000000,
+        "end_us": 99000000,
+        "duration_us": 3000000,
+        "start_seconds": 96.0,
+        "end_seconds": 99.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "\"天才是1%的天分",
+        "加上99%的努力\""
+      ],
+      "track_indices": [
+        2,
+        3
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 21
+        },
+        {
+          "track_index": 3,
+          "segment_index": 13
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V31",
+      "candidate_id": "PROJECT-1-3-V31",
+      "semantic_family_id": "1-3-U05",
+      "family_id": "PROJECT-1-3-F05",
+      "category": "金句",
+      "start": 99.0,
+      "end": 102.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 99000000,
+        "end_us": 102000000,
+        "duration_us": 3000000,
+        "start_seconds": 99.0,
+        "end_seconds": 102.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "\"天才是1%的天分",
+        "加上99%的努力\""
+      ],
+      "track_indices": [
+        2,
+        3
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 22
+        },
+        {
+          "track_index": 3,
+          "segment_index": 14
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V32",
+      "candidate_id": "PROJECT-1-3-V32",
+      "semantic_family_id": "1-3-U05",
+      "family_id": "PROJECT-1-3-F05",
+      "category": "金句",
+      "start": 102.0,
+      "end": 105.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 102000000,
+        "end_us": 105000000,
+        "duration_us": 3000000,
+        "start_seconds": 102.0,
+        "end_seconds": 105.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "你的目标应该是",
+        "你失败的次数",
+        "比他们尝试次数的总和",
+        "还要多"
+      ],
+      "track_indices": [
+        2,
+        3,
+        4,
+        7
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 23
+        },
+        {
+          "track_index": 3,
+          "segment_index": 15
+        },
+        {
+          "track_index": 4,
+          "segment_index": 6
+        },
+        {
+          "track_index": 7,
+          "segment_index": 3
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V33",
+      "candidate_id": "PROJECT-1-3-V33",
+      "semantic_family_id": "1-3-U06",
+      "family_id": "PROJECT-1-3-F06",
+      "category": "数字",
+      "start": 105.0,
+      "end": 108.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 105000000,
+        "end_us": 108000000,
+        "duration_us": 3000000,
+        "start_seconds": 105.0,
+        "end_seconds": 108.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "100%",
+        "100%的成功率"
+      ],
+      "track_indices": [
+        7,
+        10
+      ],
+      "slot_refs": [
+        {
+          "track_index": 7,
+          "segment_index": 4
+        },
+        {
+          "track_index": 10,
+          "segment_index": 15
+        }
+      ],
+      "semantic_tags": [
+        "data_number",
+        "keyword_emphasis"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V34",
+      "candidate_id": "PROJECT-1-3-V34",
+      "semantic_family_id": "1-3-U06",
+      "family_id": "PROJECT-1-3-F06",
+      "category": "数字",
+      "start": 108.0,
+      "end": 111.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 108000000,
+        "end_us": 111000000,
+        "duration_us": 3000000,
+        "start_seconds": 108.0,
+        "end_seconds": 111.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "今年下半年的计划"
+      ],
+      "track_indices": [
+        10
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 16
+        }
+      ],
+      "semantic_tags": [
+        "data_number",
+        "keyword_emphasis"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V35",
+      "candidate_id": "PROJECT-1-3-V35",
+      "semantic_family_id": "1-3-U06",
+      "family_id": "PROJECT-1-3-F06",
+      "category": "数字",
+      "start": 111.0,
+      "end": 114.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 111000000,
+        "end_us": 114000000,
+        "duration_us": 3000000,
+        "start_seconds": 111.0,
+        "end_seconds": 114.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "今年下半年的计划",
+        "盈利5000万"
+      ],
+      "track_indices": [
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 17
+        },
+        {
+          "track_index": 11,
+          "segment_index": 11
+        }
+      ],
+      "semantic_tags": [
+        "data_number",
+        "keyword_emphasis"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V36",
+      "candidate_id": "PROJECT-1-3-V36",
+      "semantic_family_id": "1-3-U07",
+      "family_id": "PROJECT-1-3-F07",
+      "category": "框架概要",
+      "start": 114.0,
+      "end": 117.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 114000000,
+        "end_us": 117000000,
+        "duration_us": 3000000,
+        "start_seconds": 114.0,
+        "end_seconds": 117.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "第一",
+        "\"不要做别人的平替\""
+      ],
+      "track_indices": [
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 18
+        },
+        {
+          "track_index": 11,
+          "segment_index": 12
+        }
+      ],
+      "semantic_tags": [
+        "framework_summary",
+        "explanation_two_line"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V37",
+      "candidate_id": "PROJECT-1-3-V37",
+      "semantic_family_id": "1-3-U07",
+      "family_id": "PROJECT-1-3-F07",
+      "category": "框架概要",
+      "start": 117.0,
+      "end": 120.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 117000000,
+        "end_us": 120000000,
+        "duration_us": 3000000,
+        "start_seconds": 117.0,
+        "end_seconds": 120.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "第一",
+        "\"同一个话题\n你的不同价值观是什么\"",
+        "第二",
+        "\"同一个价值观\n你能提供给观众的不同\n认知点是什么?\""
+      ],
+      "track_indices": [
+        2,
+        3,
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 24
+        },
+        {
+          "track_index": 3,
+          "segment_index": 16
+        },
+        {
+          "track_index": 10,
+          "segment_index": 19
+        },
+        {
+          "track_index": 11,
+          "segment_index": 13
+        }
+      ],
+      "semantic_tags": [
+        "framework_summary",
+        "explanation_two_line"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V38",
+      "candidate_id": "PROJECT-1-3-V38",
+      "semantic_family_id": "1-3-U07",
+      "family_id": "PROJECT-1-3-F07",
+      "category": "框架概要",
+      "start": 120.0,
+      "end": 123.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 120000000,
+        "end_us": 123000000,
+        "duration_us": 3000000,
+        "start_seconds": 120.0,
+        "end_seconds": 123.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "1",
+        "2",
+        "我一直呕心沥血的这个项目\n它是不是本身就...",
+        "老板对我的工作以及业绩的\n考核"
+      ],
+      "track_indices": [
+        2,
+        3,
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 25
+        },
+        {
+          "track_index": 3,
+          "segment_index": 17
+        },
+        {
+          "track_index": 10,
+          "segment_index": 20
+        },
+        {
+          "track_index": 11,
+          "segment_index": 14
+        }
+      ],
+      "semantic_tags": [
+        "framework_summary",
+        "explanation_two_line"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V39",
+      "candidate_id": "PROJECT-1-3-V39",
+      "semantic_family_id": "1-3-U07",
+      "family_id": "PROJECT-1-3-F07",
+      "category": "框架概要",
+      "start": 123.0,
+      "end": 126.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 123000000,
+        "end_us": 126000000,
+        "duration_us": 3000000,
+        "start_seconds": 123.0,
+        "end_seconds": 126.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "做管理",
+        "员工谈话 确定战略"
+      ],
+      "track_indices": [
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 21
+        },
+        {
+          "track_index": 11,
+          "segment_index": 15
+        }
+      ],
+      "semantic_tags": [
+        "framework_summary",
+        "explanation_two_line"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V40",
+      "candidate_id": "PROJECT-1-3-V40",
+      "semantic_family_id": "1-3-U07",
+      "family_id": "PROJECT-1-3-F07",
+      "category": "框架概要",
+      "start": 126.0,
+      "end": 129.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 126000000,
+        "end_us": 129000000,
+        "duration_us": 3000000,
+        "start_seconds": 126.0,
+        "end_seconds": 129.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "做管理",
+        "员工谈话 确定战略",
+        "写作",
+        "写课 写书 写视频稿"
+      ],
+      "track_indices": [
+        2,
+        3,
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 26
+        },
+        {
+          "track_index": 3,
+          "segment_index": 18
+        },
+        {
+          "track_index": 10,
+          "segment_index": 22
+        },
+        {
+          "track_index": 11,
+          "segment_index": 16
+        }
+      ],
+      "semantic_tags": [
+        "framework_summary",
+        "explanation_two_line"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V41",
+      "candidate_id": "PROJECT-1-3-V41",
+      "semantic_family_id": "1-3-U07",
+      "family_id": "PROJECT-1-3-F07",
+      "category": "框架概要",
+      "start": 129.0,
+      "end": 132.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 129000000,
+        "end_us": 132000000,
+        "duration_us": 3000000,
+        "start_seconds": 129.0,
+        "end_seconds": 132.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "01",
+        "价值观导向"
+      ],
+      "track_indices": [
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 23
+        },
+        {
+          "track_index": 11,
+          "segment_index": 17
+        }
+      ],
+      "semantic_tags": [
+        "framework_summary",
+        "explanation_two_line"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V42",
+      "candidate_id": "PROJECT-1-3-V42",
+      "semantic_family_id": "1-3-U07",
+      "family_id": "PROJECT-1-3-F07",
+      "category": "框架概要",
+      "start": 132.0,
+      "end": 135.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 132000000,
+        "end_us": 135000000,
+        "duration_us": 3000000,
+        "start_seconds": 132.0,
+        "end_seconds": 135.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "02",
+        "道德观导向"
+      ],
+      "track_indices": [
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 24
+        },
+        {
+          "track_index": 11,
+          "segment_index": 18
+        }
+      ],
+      "semantic_tags": [
+        "framework_summary",
+        "explanation_two_line"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V43",
+      "candidate_id": "PROJECT-1-3-V43",
+      "semantic_family_id": "1-3-U07",
+      "family_id": "PROJECT-1-3-F07",
+      "category": "框架概要",
+      "start": 135.0,
+      "end": 138.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 135000000,
+        "end_us": 138000000,
+        "duration_us": 3000000,
+        "start_seconds": 135.0,
+        "end_seconds": 138.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "01",
+        "价值观导向"
+      ],
+      "track_indices": [
+        10,
+        11
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 25
+        },
+        {
+          "track_index": 11,
+          "segment_index": 19
+        }
+      ],
+      "semantic_tags": [
+        "framework_summary",
+        "explanation_two_line"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V44",
+      "candidate_id": "PROJECT-1-3-V44",
+      "semantic_family_id": "1-3-U07",
+      "family_id": "PROJECT-1-3-F07",
+      "category": "框架概要",
+      "start": 138.0,
+      "end": 141.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 138000000,
+        "end_us": 141000000,
+        "duration_us": 3000000,
+        "start_seconds": 138.0,
+        "end_seconds": 141.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "18-35岁 (成年初期):选择职业、建立家庭",
+        "35-55岁 (成年中期):成就事业、养育子女",
+        "55岁后 (成年中期):退休、子女长大成人"
+      ],
+      "track_indices": [
+        10,
+        11,
+        12
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 26
+        },
+        {
+          "track_index": 11,
+          "segment_index": 20
+        },
+        {
+          "track_index": 12,
+          "segment_index": 4
+        }
+      ],
+      "semantic_tags": [
+        "framework_summary",
+        "explanation_two_line"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V45",
+      "candidate_id": "PROJECT-1-3-V45",
+      "semantic_family_id": "1-3-U07",
+      "family_id": "PROJECT-1-3-F07",
+      "category": "框架概要",
+      "start": 141.0,
+      "end": 144.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 141000000,
+        "end_us": 144000000,
+        "duration_us": 3000000,
+        "start_seconds": 141.0,
+        "end_seconds": 144.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "01",
+        "价值观导向"
+      ],
+      "track_indices": [
+        7,
+        8
+      ],
+      "slot_refs": [
+        {
+          "track_index": 7,
+          "segment_index": 5
+        },
+        {
+          "track_index": 8,
+          "segment_index": 1
+        }
+      ],
+      "semantic_tags": [
+        "framework_summary",
+        "explanation_two_line"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V46",
+      "candidate_id": "PROJECT-1-3-V46",
+      "semantic_family_id": "1-3-U07",
+      "family_id": "PROJECT-1-3-F07",
+      "category": "框架概要",
+      "start": 144.0,
+      "end": 147.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 144000000,
+        "end_us": 147000000,
+        "duration_us": 3000000,
+        "start_seconds": 144.0,
+        "end_seconds": 147.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "02",
+        "道德观导向"
+      ],
+      "track_indices": [
+        7,
+        8
+      ],
+      "slot_refs": [
+        {
+          "track_index": 7,
+          "segment_index": 6
+        },
+        {
+          "track_index": 8,
+          "segment_index": 2
+        }
+      ],
+      "semantic_tags": [
+        "framework_summary",
+        "explanation_two_line"
+      ],
+      "mechanism_family": "masked_or_windowed_layout",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V47",
+      "candidate_id": "PROJECT-1-3-V47",
+      "semantic_family_id": "1-3-U08",
+      "family_id": "PROJECT-1-3-F08",
+      "category": "引用/回忆",
+      "start": 147.0,
+      "end": 150.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 147000000,
+        "end_us": 150000000,
+        "duration_us": 3000000,
+        "start_seconds": 147.0,
+        "end_seconds": 150.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "《活着》中写到的那样"
+      ],
+      "track_indices": [
+        10
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 27
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion",
+        "reference_memory"
+      ],
+      "mechanism_family": "text_layout_over_demo_media",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V48",
+      "candidate_id": "PROJECT-1-3-V48",
+      "semantic_family_id": "1-3-U08",
+      "family_id": "PROJECT-1-3-F08",
+      "category": "引用/回忆",
+      "start": 150.0,
+      "end": 153.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 150000000,
+        "end_us": 153000000,
+        "duration_us": 3000000,
+        "start_seconds": 150.0,
+        "end_seconds": 153.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "《活着》\n中写到的那样"
+      ],
+      "track_indices": [
+        10
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 28
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion",
+        "reference_memory"
+      ],
+      "mechanism_family": "text_layout_over_demo_media",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V49",
+      "candidate_id": "PROJECT-1-3-V49",
+      "semantic_family_id": "1-3-U08",
+      "family_id": "PROJECT-1-3-F08",
+      "category": "引用/回忆",
+      "start": 153.0,
+      "end": 156.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 153000000,
+        "end_us": 156000000,
+        "duration_us": 3000000,
+        "start_seconds": 153.0,
+        "end_seconds": 156.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "《活着》\n中写到的那样"
+      ],
+      "track_indices": [
+        10
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 29
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion",
+        "reference_memory"
+      ],
+      "mechanism_family": "text_layout_over_demo_media",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V50",
+      "candidate_id": "PROJECT-1-3-V50",
+      "semantic_family_id": "1-3-U08",
+      "family_id": "PROJECT-1-3-F08",
+      "category": "引用/回忆",
+      "start": 156.0,
+      "end": 159.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 156000000,
+        "end_us": 159000000,
+        "duration_us": 3000000,
+        "start_seconds": 156.0,
+        "end_seconds": 159.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "《活着》\n中写到的那样"
+      ],
+      "track_indices": [
+        10
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 30
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion",
+        "reference_memory"
+      ],
+      "mechanism_family": "text_layout_over_demo_media",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V51",
+      "candidate_id": "PROJECT-1-3-V51",
+      "semantic_family_id": "1-3-U08",
+      "family_id": "PROJECT-1-3-F08",
+      "category": "引用/回忆",
+      "start": 159.0,
+      "end": 162.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 159000000,
+        "end_us": 162000000,
+        "duration_us": 3000000,
+        "start_seconds": 159.0,
+        "end_seconds": 162.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "《活着》\n中写到的那样"
+      ],
+      "track_indices": [
+        10
+      ],
+      "slot_refs": [
+        {
+          "track_index": 10,
+          "segment_index": 31
+        }
+      ],
+      "semantic_tags": [
+        "quote_opinion",
+        "reference_memory"
+      ],
+      "mechanism_family": "text_layout_over_demo_media",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V52",
+      "candidate_id": "PROJECT-1-3-V52",
+      "semantic_family_id": "1-3-U09",
+      "family_id": "PROJECT-1-3-F09",
+      "category": "结尾引导",
+      "start": 162.0,
+      "end": 165.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 162000000,
+        "end_us": 165000000,
+        "duration_us": 3000000,
+        "start_seconds": 162.0,
+        "end_seconds": 165.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "50个短视频爆款开头",
+        "IP辅导工作SOP",
+        "IP选题提报模板",
+        "IP资源高效使用指南",
+        "做出千万粉丝IP的\n内部绝密资料"
+      ],
+      "track_indices": [
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "slot_refs": [
+        {
+          "track_index": 2,
+          "segment_index": 27
+        },
+        {
+          "track_index": 3,
+          "segment_index": 19
+        },
+        {
+          "track_index": 4,
+          "segment_index": 7
+        },
+        {
+          "track_index": 7,
+          "segment_index": 7
+        },
+        {
+          "track_index": 8,
+          "segment_index": 3
+        }
+      ],
+      "semantic_tags": [
+        "closing_cta"
+      ],
+      "mechanism_family": "overlapping_text_slot_variant_group",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    },
+    {
+      "id": "PROJECT-1-3-V53",
+      "candidate_id": "PROJECT-1-3-V53",
+      "semantic_family_id": "1-3-U09",
+      "family_id": "PROJECT-1-3-F09",
+      "category": "结尾引导",
+      "start": 165.0,
+      "end": 168.0,
+      "duration": 3.0,
+      "time": {
+        "start_us": 165000000,
+        "end_us": 168000000,
+        "duration_us": 3000000,
+        "start_seconds": 165.0,
+        "end_seconds": 168.0,
+        "duration_seconds": 3.0
+      },
+      "example_text": [
+        "找我聊聊",
+        "想了解更多资源联系我"
+      ],
+      "track_indices": [
+        7,
+        8
+      ],
+      "slot_refs": [
+        {
+          "track_index": 7,
+          "segment_index": 8
+        },
+        {
+          "track_index": 8,
+          "segment_index": 4
+        }
+      ],
+      "semantic_tags": [
+        "closing_cta"
+      ],
+      "mechanism_family": "overlapping_text_slot_variant_group",
+      "status": "structurally_cataloged",
+      "automation_eligible": false,
+      "visual_validation": "pending_per_variant",
+      "source_media_behavior": "demo_only",
+      "source_media_behavior_note": "源草稿中的静态人物仅为演示占位，不代表应用时人物必须静止。",
+      "audio_sfx_included": false,
+      "direct_raw_copy_allowed": false,
+      "compatibility_note": "源草稿字段为8.1.1，不能作为8.8兼容头；实际导入必须走已修复的8.8导入器和兼容参考"
+    }
+  ],
+  "unresolved_fragments": [
+    {
+      "track_index": 7,
+      "segment_index": 0,
+      "time": {
+        "start_us": 33000000,
+        "end_us": 34266666,
+        "duration_us": 1266666,
+        "start_seconds": 33.0,
+        "end_seconds": 34.266666,
+        "duration_seconds": 1.266666
+      },
+      "example_text": "为什么",
+      "reason": "chapter_gap_text_retained_for_follow_up",
+      "raw_segment": {
+        "clip": {
+          "flip": {},
+          "transform": {
+            "x": 0.0,
+            "y": 0.685258964143426
+          }
+        },
+        "enable_adjust": false,
+        "enable_adjust_mask": false,
+        "enable_hsl": false,
+        "enable_lut": false,
+        "extra_material_refs": [
+          "A8D140C3-71A3-49a8-8378-783998DB20E6"
+        ],
+        "id": "0C11FA7F-E7FC-4fb4-AC61-5C4CA4283E8B",
+        "material_id": "6B08DF15-5D5B-4a2d-892B-FDFE5F7D3505",
+        "render_index": 14000,
+        "render_timerange": {},
+        "responsive_layout": {},
+        "source": "segmentsourcenormal",
+        "target_timerange": {
+          "duration": 1266666,
+          "start": 33000000
+        },
+        "track_render_index": 7
+      }
+    },
+    {
+      "track_index": 7,
+      "segment_index": 1,
+      "time": {
+        "start_us": 34266666,
+        "end_us": 36000000,
+        "duration_us": 1733334,
+        "start_seconds": 34.266666,
+        "end_seconds": 36.0,
+        "duration_seconds": 1.733334
+      },
+      "example_text": "为什么",
+      "reason": "chapter_gap_text_retained_for_follow_up",
+      "raw_segment": {
+        "clip": {
+          "flip": {},
+          "transform": {
+            "x": 0.0,
+            "y": 0.685258964143426
+          }
+        },
+        "enable_adjust": false,
+        "enable_adjust_mask": false,
+        "enable_hsl": false,
+        "enable_lut": false,
+        "extra_material_refs": [
+          "6E014283-2900-49d5-8E7D-DA6BF5CB6EA3"
+        ],
+        "id": "CA279D21-E225-4703-96D1-D6F1C4015D42",
+        "material_id": "8EDF3290-1F04-44ec-9987-BE158EF6EF6E",
+        "render_index": 14000,
+        "render_timerange": {},
+        "responsive_layout": {},
+        "source": "segmentsourcenormal",
+        "target_timerange": {
+          "duration": 1733334,
+          "start": 34266666
+        },
+        "track_render_index": 7
+      }
+    },
+    {
+      "track_index": 8,
+      "segment_index": 0,
+      "time": {
+        "start_us": 34266666,
+        "end_us": 36000000,
+        "duration_us": 1733334,
+        "start_seconds": 34.266666,
+        "end_seconds": 36.0,
+        "duration_seconds": 1.733334
+      },
+      "example_text": "明明工作那么努力",
+      "reason": "chapter_gap_text_retained_for_follow_up",
+      "raw_segment": {
+        "clip": {
+          "flip": {},
+          "transform": {
+            "x": 0.0,
+            "y": 0.681274900398406
+          }
+        },
+        "enable_adjust": false,
+        "enable_adjust_mask": false,
+        "enable_hsl": false,
+        "enable_lut": false,
+        "extra_material_refs": [
+          "DFD11103-4CFB-4887-BE3C-D7A2EC3CF459"
+        ],
+        "id": "06231B0D-57D4-494c-AE69-34D3C0BA3092",
+        "material_id": "C1BAA09A-2430-48bf-9C59-7F4EB7636A0C",
+        "render_index": 14000,
+        "render_timerange": {},
+        "responsive_layout": {},
+        "source": "segmentsourcenormal",
+        "target_timerange": {
+          "duration": 1733334,
+          "start": 34266666
+        },
+        "track_render_index": 8
+      }
+    }
+  ],
+  "integrity": {
+    "source_analysis_sha256": "1d40a5a5f80741efd52a0cc75ac4fd80aca42156f5be54fcd2fa04071f8acc5d",
+    "source_analysis_hash": "1d40a5a5f80741efd52a0cc75ac4fd80aca42156f5be54fcd2fa04071f8acc5d",
+    "source_draft_sha256": "8e760647a1dc36e66798a43dc03202d1123361c0208b88c391a049eeca42ecd5",
+    "source_draft_content_sha256": "8e760647a1dc36e66798a43dc03202d1123361c0208b88c391a049eeca42ecd5",
+    "source_collection_hash_before": "8372e715ee09793d5a4cb1527ff9db9d05b70be3c07689ea48848f1290628afc",
+    "source_collection_hash_after": "8372e715ee09793d5a4cb1527ff9db9d05b70be3c07689ea48848f1290628afc",
+    "source_collection_unchanged": true,
+    "text_fragment_accounting": {
+      "total_text_fragments": 137,
+      "grouped_text_fragments": 125,
+      "unresolved_chapter_gap_fragments": 3,
+      "chapter_label_fragments": 9,
+      "accounted_text_fragments": 137,
+      "accounting_complete": true
+    },
+    "accounting_137": {
+      "total_text_fragments": 137,
+      "grouped_text_fragments": 125,
+      "unresolved_chapter_gap_fragments": 3,
+      "chapter_label_fragments": 9,
+      "accounted_text_fragments": 137,
+      "accounting_complete": true
+    }
+  }
+}

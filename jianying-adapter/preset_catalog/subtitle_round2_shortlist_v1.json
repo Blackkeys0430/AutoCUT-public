@@ -1,0 +1,122 @@
+{
+  "schema": "jianying-adapter.subtitle-round2-shortlist.v1",
+  "purpose": "扩充口播字幕视觉家族；12款原生预设已通过用户动态验收，生产使用时按当前素材自适应整体平移。",
+  "source_evidence": [
+    "purpose_inventory_v1.json",
+    "all_auto_candidates_v1.json",
+    "modern_8_8_source_preserved_v1.json"
+  ],
+  "selection_rules": [
+    "剪映版本不高于 8.8，优先原始版本 8.8.0",
+    "与当前 PROJECT-1-3 文字排版合集属于不同来源或不同视觉结构",
+    "排除已确认视觉过旧的李系列基础动画",
+    "排除素材展示、人物处理和纯背景，不把它们算作字幕预设",
+    "每个候选必须单独检查画布、文字容量、字幕安全区、动画和音效"
+  ],
+  "status": "visual_accepted_adaptive_placement",
+  "automation_eligible": false,
+  "placement_automation_eligible": true,
+  "user_validation": {
+    "date": "2026-09-01",
+    "evidence_project": "E:/AutoCUT/video_trials/字幕预设位置适配_动态验收_v1/project_state.json",
+    "accepted_template_ids": [
+      "JIANYING-25-551",
+      "JIANYING-25-676",
+      "JIANYING-25-511",
+      "JIANYING-25-517",
+      "JIANYING-25-647",
+      "JIANYING-25-53",
+      "JIANYING-25-76",
+      "JIANYING-25-09",
+      "JIANYING-25-194",
+      "JIANYING-25-666",
+      "MODERN-88-01",
+      "MODERN-88-02"
+    ],
+    "accepted_scope": "原生样式、动画、音效、内部排版，以及整组平移能力",
+    "not_accepted_as_global_default": "IMG_0438验收草稿使用的固定坐标y=0.53"
+  },
+  "adaptive_placement_contract": {
+    "mode": "per_video_adaptive_translate_xy",
+    "fixed_position": false,
+    "inputs": [
+      "canvas",
+      "face_and_facial_features_over_template_window",
+      "subject_motion_range",
+      "negative_space",
+      "ordinary_caption_reserved_area",
+      "broll_and_overlay_occupied_areas"
+    ],
+    "allowed_transform": "uniform_group_translation_xy",
+    "position_keyframe_policy": "shift_every_position_keyframe_by_the_same_xy_delta",
+    "style_lock": [
+      "font",
+      "font_size",
+      "color",
+      "scale",
+      "internal_spacing",
+      "relative_layout",
+      "native_animation",
+      "native_audio"
+    ],
+    "soft_face_gate": "稳定阅读阶段不得遮挡眼睛、鼻子或嘴巴；短暂擦过头发、脸颊或肩膀可按实际画面判断",
+    "fallback_order": [
+      "top_free_space",
+      "left_free_space",
+      "right_free_space",
+      "bottom_free_space_outside_caption_zone",
+      "broll_only",
+      "skip_template"
+    ]
+  },
+  "groups": [
+    {
+      "role": "普通口播字幕变化",
+      "candidates": [
+        {"template_id": "JIANYING-25-551", "name": "温12-2行字幕4", "text_slots": 2, "audio_slots": 1, "duration_seconds": 1.467},
+        {"template_id": "JIANYING-25-676", "name": "温17-2行字幕2", "text_slots": 2, "audio_slots": 2, "duration_seconds": 1.533},
+        {"template_id": "JIANYING-25-511", "name": "温27-1句字幕", "text_slots": 1, "audio_slots": 3, "duration_seconds": 3.167}
+      ]
+    },
+    {
+      "role": "双行解释",
+      "candidates": [
+        {"template_id": "JIANYING-25-517", "name": "温10-2句字幕2", "text_slots": 2, "audio_slots": 2, "duration_seconds": 1.5},
+        {"template_id": "JIANYING-25-647", "name": "温31-2句字幕1", "text_slots": 2, "audio_slots": 2, "duration_seconds": 3.267}
+      ]
+    },
+    {
+      "role": "疑问钩子",
+      "candidates": [
+        {"template_id": "JIANYING-25-53", "name": "温4-开头疑问3行", "text_slots": 4, "audio_slots": 2, "duration_seconds": 2.9},
+        {"template_id": "JIANYING-25-76", "name": "温45-疑问1", "text_slots": 3, "audio_slots": 2, "duration_seconds": 1.933}
+      ]
+    },
+    {
+      "role": "金句结论",
+      "candidates": [
+        {"template_id": "JIANYING-25-09", "name": "温38-3句金句覆盖", "text_slots": 3, "audio_slots": 2, "duration_seconds": 2.7}
+      ]
+    },
+    {
+      "role": "逐字揭晓",
+      "candidates": [
+        {"template_id": "JIANYING-25-194", "name": "温7-打字机", "text_slots": 1, "audio_slots": 1, "duration_seconds": 1.633}
+      ]
+    },
+    {
+      "role": "两点对比或并列",
+      "candidates": [
+        {"template_id": "JIANYING-25-666", "name": "184.9月更新分列两点", "text_slots": 4, "audio_slots": 3, "duration_seconds": 2.367}
+      ]
+    },
+    {
+      "role": "新版网感强调",
+      "candidates": [
+        {"template_id": "MODERN-88-01", "name": "J182-口播网感", "text_slots": 3, "audio_slots": 4, "duration_seconds": 3.033},
+        {"template_id": "MODERN-88-02", "name": "J183-波浪文字", "text_slots": 3, "audio_slots": 2, "duration_seconds": 1.433}
+      ]
+    }
+  ],
+  "next_step": "在下一条实际素材中先做语义匹配，再按人物、留白、字幕区和B-roll占用现场计算整组X/Y偏移；文字容量仍须逐模板门禁，不能因为位置通过就直接批量。"
+}

@@ -1,0 +1,95 @@
+{
+  "schema": "jianying_media_source_policy_v1",
+  "revision": 2,
+  "confirmed_by_user": "2026-09-09",
+  "reference_video": "https://v.douyin.com/Opw7o5ZkJT0/",
+  "purpose": "为口播语义节点寻找可追溯的 B-roll、图片和音频候选；来源优先级不能替代语义匹配与画面验收。",
+  "workflow": [
+    "semantic_node",
+    "query_zh_and_en",
+    "local_library_search_and_review",
+    "provider_search",
+    "actual_candidate_content_composition_quality_review",
+    "license_check",
+    "generate_illustration_if_missing_or_unsuitable",
+    "download_and_freeze",
+    "ledger_validation",
+    "candidate_plan_add_broll",
+    "visual_acceptance"
+  ],
+  "navigation_config": "material_library_config.json",
+  "created_asset_note": "local/generated/authored 在同一台账中保留真实授权与来源；user_authorized/project_generated 不代表第三方素材已验证商用。导航站点的商业许可和直连标记不能替代单条素材检查。",
+  "sources": [
+    {
+      "provider": "pexels",
+      "priority": 10,
+      "default_enabled": true,
+      "media_types": ["video", "image"],
+      "domains": ["pexels.com", "www.pexels.com"],
+      "search_language": ["en", "zh"],
+      "license_url": "https://www.pexels.com/legal-pages/license/",
+      "item_license_check": true,
+      "notes": "优先用于人物、办公、生活方式和风景类语义 B-roll；仍需检查肖像、商标和品牌露出。"
+    },
+    {
+      "provider": "pixabay",
+      "priority": 20,
+      "default_enabled": true,
+      "media_types": ["video", "image", "music", "sfx"],
+      "domains": ["pixabay.com", "www.pixabay.com"],
+      "search_language": ["en", "zh"],
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "item_license_check": true,
+      "notes": "综合补充库；音频也必须保留素材页、文件名和许可记录。"
+    },
+    {
+      "provider": "mixkit",
+      "priority": 30,
+      "default_enabled": true,
+      "media_types": ["video", "music", "sfx", "template", "art"],
+      "domains": ["mixkit.co", "www.mixkit.co"],
+      "search_language": ["en"],
+      "license_url": "https://mixkit.co/license/",
+      "item_license_check": true,
+      "requires_license_name": true,
+      "notes": "不同素材类型和具体项目可能对应 Free 或 Restricted 许可，禁止只凭网站名称判定可商用。"
+    },
+    {
+      "provider": "videvo",
+      "priority": 40,
+      "default_enabled": false,
+      "media_types": ["video", "motion_graphics", "music", "sfx"],
+      "domains": ["videvo.net", "www.videvo.net"],
+      "search_language": ["en"],
+      "license_url": "https://www.videvo.net/blog/how-we-license-our-footage-on-videvo-net/",
+      "item_license_check": true,
+      "requires_license_name": true,
+      "requires_usage_scope": "all_projects_and_media",
+      "notes": "只在单条素材明确允许商业项目、署名要求已记录且不是 Editorial Use Only 时启用。"
+    }
+  ],
+  "ledger_required_fields": [
+    "asset_id",
+    "semantic_node_id",
+    "semantic",
+    "provider",
+    "source_page_url",
+    "license_url",
+    "license_checked_at",
+    "license_name",
+    "license_status",
+    "attribution_required",
+    "editorial_only",
+    "local_path",
+    "sha256",
+    "media_type"
+  ],
+  "production_gate": {
+    "accepted_license_status": ["verified_commercial"],
+    "reject_editorial_only": true,
+    "require_attribution_text_when_needed": true,
+    "require_local_file": true,
+    "require_sha256": true,
+    "require_semantic_query": true
+  }
+}

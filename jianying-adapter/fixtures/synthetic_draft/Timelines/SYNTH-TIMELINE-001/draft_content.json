@@ -1,0 +1,17 @@
+{
+  "id": "SYNTH-TIMELINE-001",
+  "duration": 5000000,
+  "render_index_track_mode_on": true,
+  "canvas_config": {"width": 1080, "height": 1920},
+  "config": {"synthetic": true},
+  "materials": {
+    "videos": [{"id": "SYNTH-MATERIAL-VIDEO-001", "type": "video"}]
+  },
+  "tracks": [
+    {
+      "id": "SYNTH-TRACK-VIDEO-001",
+      "type": "video",
+      "segments": [{"id": "SYNTH-SEGMENT-001", "material_id": "SYNTH-MATERIAL-VIDEO-001"}]
+    }
+  ]
+}

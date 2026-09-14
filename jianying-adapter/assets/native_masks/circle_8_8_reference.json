@@ -1,0 +1,49 @@
+{
+  "platform": {
+    "app_version": "8.8.0"
+  },
+  "last_modified_platform": {
+    "app_version": "8.8.0"
+  },
+  "materials": {
+    "common_mask": [
+      {
+        "category": "video",
+        "config": {
+          "centerY": 0.294820717131474,
+          "height": 0.430566037735849,
+          "width": 0.768867924528302
+        },
+        "constant_material_id": "176435FF-5A88-4095-AD69-1BE73F645AA6",
+        "id": "native-circle-mask-reference",
+        "name": "圆形",
+        "path": "E:\\AutoCUT\\jianying-adapter\\assets\\native_masks\\resources\\3ab1c47350d987c8ad415497e020a38b",
+        "resource_id": "7356934080102928946",
+        "resource_type": "circle",
+        "text_config": {
+          "align_type": 15
+        },
+        "type": "mask"
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "type": "video",
+      "segments": [
+        {
+          "id": "native-circle-segment-reference",
+          "enable_adjust_mask": false,
+          "clip": {
+            "alpha": 1.0
+          },
+          "extra_material_refs": [
+            "native-circle-mask-reference"
+          ],
+          "common_keyframes": [],
+          "keyframe_refs": []
+        }
+      ]
+    }
+  ]
+}
