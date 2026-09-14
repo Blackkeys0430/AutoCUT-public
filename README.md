@@ -1,10 +1,10 @@
-# AutoCUT
+# BlackkeysCut
 
 **AI 辅助口播剪辑，交付可以在剪映里继续修改的原生草稿。**
 
 作者：[Blackkeys0430](https://github.com/Blackkeys0430) · [项目归属](AUTHORS.md) · [许可证](LICENSE)
 
-这是 AutoCUT 的独立发布副本，包含当前视频管线源码、测试、创作方法及展示案例。原始口播经过内容整理、粗剪、字幕和声画包装，再由统一 Writer 写入剪映 8.8 测试草稿，交给创作者播放、判断和精修。
+这是 BlackkeysCut（原 AutoCUT）的独立发布副本，包含当前视频管线源码、测试、创作方法及展示案例。原始口播经过内容整理、粗剪、字幕和声画包装，再由统一 Writer 写入剪映 8.8 测试草稿，交给创作者播放、判断和精修。
 
 当前流程需要 AI Agent 参与内容与设计判断，也依赖本地剪映、转写模型和预设资源；尚不是安装后即可全程无人值守运行的产品。
 
@@ -31,7 +31,7 @@
 建议使用独立目录，例如 `E:\AutoCUT`。代码本身使用本仓库中的相对入口；文档和资源示例中的 `E:\AutoCUT`、`YOUR_USER` 等需要按实际环境配置。
 
 ```powershell
-git clone https://github.com/Blackkeys0430/AutoCUT-public.git E:\AutoCUT
+git clone https://github.com/Blackkeys0430/BlackkeysCut.git E:\AutoCUT
 cd E:\AutoCUT
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -e .\jianying-adapter
@@ -65,4 +65,4 @@ python -m venv .venv
 
 第三方组件保持各自许可，见 [THIRD_PARTY.md](THIRD_PARTY.md)。
 
-使用问题、意见与授权申请可以提交 [GitHub Issue](https://github.com/Blackkeys0430/AutoCUT-public/issues)。提交问题时请隐藏密钥、客户素材、账号信息和私人路径。
+使用问题、意见与授权申请可以提交 [GitHub Issue](https://github.com/Blackkeys0430/BlackkeysCut/issues)。提交问题时请隐藏密钥、客户素材、账号信息和私人路径。
